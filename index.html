@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <style> td { border: 1px solid black; } </style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab1_Lab2</title>
+</head>
+<meta charset=" utf-8" />
+<title> My website</title>
+<style>
+    *{ 
+        box-sizing: border-box ;
+    }
+    body{
+        margin: 0;
+        padding: 0 ;
+        font-family: 'Inter' , sans-serif
+    }
+    header{
+        position:sticky;
+        width: 100%;
+        background-color: hsl(0, 0%, 100%);
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 0 0 10x 2px #bbbbbb;
+        padding: 20px 120px ;
+        z-index: 100;
+
+       
+
+    }
+    header div h2{
+        padding: 0;
+        color: #5276c4
+
+
+
+    }
+    header nav{
+        display: block;
+
+    }
+    header nav ul{
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        gap: 40px; 
+       
+
+    }
+
+    header nav ul a{
+        text-decoration: none;
+        color:  #000
+
+    }
+    section img{
+        dispaly:block ;
+        height: 100%;
+        padding: 50px;
+
+    }
+    section h1{
+        font-size: 50px;
+    }
+    section:first-child {
+        height: calc(100vh - 90px);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        text-align: left;
+    }
+    
+</style>
+<head>
+
+</head>
+<body>
+    <header>
+        <div>
+            <div>
+                <h2>Łukasz Cesarz - strona personalna</h2>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.html">Strona głowna</a>
+                </li>
+                <li><a href="./seriale/index.html">Ulubione seriale</a> </li>
+                <li><a href="./samochody/index.html">Ulubione marki samochdów</a>
+
+                </li>
+                
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <section>
+            <div>
+                <h1>
+                    <span>Łukasz Cesarz</span> strona personalna
+                </h1>
+                <span>Cześć! Jestem Łukasz i 
+                    <span>lubię programować</span>
+
+                </span>
+            </div>
+            <img src="main.jpg" >
+        </section>
+    <articule>
+        <h4>Kilka słow o mnie</h4>
+
+        <p>
+            Jestem absolwentem I liceum ogólnokształcącego w Dębicy.
+        </p>
+    </articule>
+
+    <articule>
+        <h4> Moje ulubione seriale</h4>
+        <ul>
+            <li><a href = „https://www.filmweb.pl/serial/Lucyfer-2016-742520” > Lucyfer </a></li>
+            <li><a href = „https://www.filmweb.pl/serial/Gra+o+tron-2011-476848” > Gra o tron</a></li>
+            
+        </ul>
+    </articule>
+    <articule>
+        <h4> Moje ulubione marki samochodów</h4>
+        <ol>
+            <li>Audi</li>
+            <li>BMW</li>
+            <li>Nissan</li>
+        
+        </ol>
+    </articule>
+    <article>
+        <h4>Wykształcenie</h4>
+        <table>
+            <tr>
+                
+                <td> 2022-obecnie </td>
+                <td>WSIZ</td>
+                
+            </tr>
+            <tr>
+             <td> 2010-2013</td>
+             <td> I Liceum Ogólnokształcące w Dębicy</td>
+            </tr>         
+        </table>
+    <article>
+        <h4>Zadanie 4.1</h4>
+    </article>
+        <table width="100" height="100">
+            <tr>
+            <td></td>
+            <td rowspan="2"/td>
+            <td></td>
+            </tr>
+            <td></td>
+            <td></td>
+            <tr>
+            <td></td>
+            <td rowspan="2" colspan="2"/td>
+            </tr>
+            <td></td>
+            <tr>
+            <td colspan="2"/td>
+            
+            <td></td>
+            </tr>
+            
+            
+        </table>
+    </article>
+
+    <aside>
+    
+    <img src="http://i33.tinypic.com/2qa73oi.jpg" />
+    </aside>
+    </main>
+    <article>
+        
+    </article>
+    <footer>
+    <h6>2023 Łukasz Cesarz </h6>
+    </footer>
+
+    
+</body>
+</html>
